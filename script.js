@@ -203,7 +203,7 @@ function playSound() {
 
 setTimeout(() => {
   playSound();
-}, 3000);
+}, 5000);
 requestNotificationPermission();
 showNotification("WELCOME TO HELL !!!", "Enjoy your journey");
 
